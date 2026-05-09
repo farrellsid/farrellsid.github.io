@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: CS & Data Science @ University of Toronto · BIM-3 Scholar
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Toronto, Ontario</p>
+    <p>f.sidadolog@mail.utoronto.ca</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm completing my second year in Computer Science and Data Science at the
+University of Toronto, on a full scholarship from Indonesia's BIM-3 program.
+Starting third year in Fall 2025.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Most recently I benchmarked R(2+1)D-18 against MViT v2 Small for HFrEF
+detection from echocardiogram video, trained on a 6 GB laptop GPU. After
+fine-tuning: ROC-AUC 0.936, 82.5% sensitivity at 90% specificity, gap
+confirmed statistically significant by paired bootstrap. Before that, I
+built a global trade network visualization on the BACI dataset — Louvain
+community detection across 150+ countries, interactive Plotly/Dash frontend.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm looking for ML research and applied data work for Summer 2026.
+Reach me at f.sidadolog@mail.utoronto.ca.
